@@ -1,0 +1,30 @@
+{
+  "name": "test-my-server",
+  "version": "1.0.0",
+  "description": "A Vulnerability Testing Library  for Node.js applications. It provides a set of tools to test your application for common vulnerabilities, including stress testing, XSS injection, and data encryption.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "security",
+    "vulnerability",
+    "testing"
+  ],
+  "author": "Achref Hasni",
+  "license": "MIT",
+  "repository": "https://github.com/AchrefHASNI/Test-my-server",
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node-fetch": "^2.6.4",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
